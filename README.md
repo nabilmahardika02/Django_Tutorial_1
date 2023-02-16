@@ -4,4 +4,4 @@ NPM: 2106751871
 
 Kelas: -
 
-Hobi: Tidur
+Hobi: Main
