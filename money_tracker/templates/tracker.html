@@ -15,6 +15,13 @@
     {% comment %} Tambahkan data di bawah baris ini {% endcomment %}
 </table>
 
+<br>
+<a href="{% url 'money_tracker:create_transaction' %}">
+    <button>
+        Transaksi Baru
+    </button>
+</a>
+
 {% for transaction in list_of_transactions %}
     <tr>
         <td>{{transaction.name}}</td>
