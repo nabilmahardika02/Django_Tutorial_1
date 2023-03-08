@@ -7,6 +7,10 @@ from money_tracker.views import show_xml_by_id, show_json_by_id
 from money_tracker.views import register #sesuaikan dengan nama fungsi yang dibuat
 from money_tracker.views import login_user #sesuaikan dengan nama fungsi yang dibuat
 from money_tracker.views import logout_user #sesuaikan dengan nama fungsi yang dibuat
+from money_tracker.views import modify_transaction
+from money_tracker.views import delete_transaction
+
+
 
 
 
@@ -25,6 +29,9 @@ urlpatterns = [
     path('register/', register, name='register'), #sesuaikan dengan nama fungsi yang dibuat
     path('login/', login_user, name='login'), #sesuaikan dengan nama fungsi yang dibuat
     path('logout/', logout_user, name='logout'), #sesuaikan dengan nama fungsi yang dibuat
+    path('modify/<int:id>', modify_transaction, name='modify_transaction'), #sesuaikan dengan nama fungsi yang dibuat
+    path('delete/<int:id>', delete_transaction, name='delete_transaction'), #sesuaikan dengan nama fungsi yang dibuat
+
 
 
 
