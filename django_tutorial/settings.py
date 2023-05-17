@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$bsvf2b&y+#y_*+vdvskbhjvlu!*j1wqzu&6jyn5ht6=4eo$lq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-#ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [f'previous-coffee-bec.domcloud.io']
 #CSRF_TRUSTED_ORIGINS = ['*']
 
 CORS_ALLOW_ALL_ORIGINS = True
